@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#5865f2">
+<title>XN Extensions</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="#"><b>XN</b> Extensions</a>
+  <nav><a href="#extensions">Extensions</a><a href="#about">À propos</a></nav>
+</header>
+
+<section class="hero">
+  <div>
+    <small>XN GAMES • PENGUINMOD / SCRATCH</small>
+    <h1>Les extensions <span>XN</span></h1>
+    <p>Une collection d'extensions personnalisées pour améliorer tes projets.</p>
+    <a class="button" href="#extensions">Voir les extensions</a>
+  </div>
+</section>
+
+<main id="extensions">
+  <div class="heading">
+    <div><small>COLLECTION</small><h2>Extensions disponibles</h2></div>
+    <span id="count"></span>
+  </div>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Rechercher une extension...">
+    <select id="category">
+      <option value="all">Toutes les catégories</option>
+      <option value="storage">Stockage</option>
+      <option value="text">Texte</option>
+      <option value="color">Couleur</option>
+    </select>
+  </div>
+
+  <div id="grid" class="grid"></div>
+  <div id="empty" class="empty" hidden>Aucune extension trouvée.</div>
+</main>
+
+<section id="about" class="about">
+  <small>À PROPOS</small>
+  <h2>Simple. Rapide. XN.</h2>
+  <p>Télécharge une extension en TXT puis renomme-la en <code>.js</code> si PenguinMod demande un fichier JavaScript.</p>
+</section>
+
+<footer>XN Extensions • Fait pour les créateurs 🎮</footer>
+<script src="script.js"></script>
+</body>
+</html>
