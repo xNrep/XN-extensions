@@ -1,10 +1,14 @@
-const extensions=[\n{name:"GUILib",cat:"gui",icon:"▣",desc:"Complete GUI extension for TurboWarp with panels, windows, controls, themes and a visual editor.",tags:["GUI","TurboWarp","Visual Editor"]},\n{name:"TorchCoin",cat:"utility",icon:"₿",desc:"Scratch/TurboWarp extension for connecting to the TorchCoin API, accounts, balances and transactions.",tags:["API","Accounts","Transactions"]},
+const extensions=[
+{name:"GUILib",cat:"gui",icon:"▣",desc:"Complete GUI extension for TurboWarp with panels, windows, controls, themes and a visual editor.",tags:["GUI","TurboWarp","Visual Editor"]},
+{name:"TorchCoin",cat:"utility",icon:"₿",desc:"Scratch/TurboWarp extension for connecting to the TorchCoin API, accounts, balances and transactions.",tags:["API","Accounts","Transactions"]},
 {name:"XN Server Storage",cat:"storage",icon:"☁",desc:"Stockage distant pour tes projets, basé uniquement sur ton serveur.",tags:["Server-only","Cloud Save","GET / POST"]},
 {name:"XN Text Filter",cat:"text",icon:"Aa",desc:"Filtre les contenus indésirables avec une liste intégrée et des mots personnalisés.",tags:["Filtrage","Liste intégrée","Mots custom"]},
 {name:"XN Color Picker",cat:"color",icon:"◉",desc:"Choisis une couleur et convertis facilement entre HEX et RGB.",tags:["Color Picker","HEX","RGB"]},
 {name:"XN Color Values",cat:"color",icon:"◆",desc:"Crée des valeurs de couleur nommées utilisables dans ton projet.",tags:["Named Colors","HEX","RGB"]}
 ];
-const files={\n"GUILib":"GUILib",\n"TorchCoin":"torchcoin",
+const files={
+"GUILib":"GUILib",
+"TorchCoin":"torchcoin",
 "XN Server Storage":"XN_Server_Storage",
 "XN Text Filter":"XN_Text_Filter",
 "XN Color Picker":"XN_Color_Picker",
